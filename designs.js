@@ -16,11 +16,11 @@ function makeGrid() {
    canvas.innerText = ""; 
    // for loops
    // this for loop will add rows and cells to the tag table
-   for (let c = 1; c < gridHeight; c++) {
+   for (let c = 0; c < gridHeight; c++) {
 
        const row = canvas.insertRow(0);
       // nested for loop will act upon the number of width is input 
-      for (let r = 1; r < gridWidth; r++) {
+      for (let r = 0; r < gridWidth; r++) {
 
          let tableCell = row.insertCell(0); 
          // .onclick even will triger once the user will click on a desired color
